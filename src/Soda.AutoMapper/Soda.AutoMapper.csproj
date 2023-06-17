@@ -1,19 +1,17 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <LangVersion>latest</LangVersion>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <PackageProjectUrl>https://github.com/DonPangPang/Soda.AutoMapper</PackageProjectUrl>
     <PackageReadmeFile>README.MD</PackageReadmeFile>
     <RepositoryUrl>https://github.com/DonPangPang/Soda.AutoMapper</RepositoryUrl>
     <Authors>Powers</Authors>
     <PackageDescription>AutoMapper;Wrapper;</PackageDescription>
   </PropertyGroup>
-  <ItemGroup>
-  </ItemGroup>
   <ItemGroup>
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
